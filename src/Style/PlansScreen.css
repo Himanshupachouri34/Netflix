@@ -1,0 +1,32 @@
+.PlansScreen{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    opacity: 0.8;
+   
+}
+
+.PlansScreen:hover{
+    opacity: 1;
+}
+
+.PlansScreen button{
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #e50914;
+    border: none;
+    cursor: pointer;
+}
+
+.plansScreen_info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 500px;
+}
+
+.plansBtn h3{
+    font-size: 16px;
+}
+
