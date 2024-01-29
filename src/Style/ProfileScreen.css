@@ -2,6 +2,7 @@
     height: 100vh;
     color: white;
     width: 100%;
+    overflow-x: hidden;
 }
 
 .profileScreen_body{
@@ -11,10 +12,11 @@
     margin-left: auto;
     margin-right: auto;
     padding: 8%;
-    max-width: 800px;
+    
 }
 
 .profileScreen_info{
+    width: 50%;
     display: flex;
 }
 
@@ -25,6 +27,7 @@
 }
 
 .profileScreen_details h2{
+    width: 50%;
     border-radius: 20px;
     background-color: gray;
     padding: 15px;
@@ -37,7 +40,7 @@
     font-size: 1rem;
     font-weight: 600;
     margin-top: 5%;
-    width: 100%;
+    width: 50%;
     color: white;
     background-color: #e50914;
     cursor: pointer;
